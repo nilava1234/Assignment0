@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwgxkfhqwoqyy"]
+
+[ext_resource type="Texture2D" uid="uid://cuwii168ibopp" path="res://sprites/player_ship.png" id="1_d1mnv"]
+[ext_resource type="Script" path="res://data/pointer.cs" id="2_y1eli"]
+
+[node name="player" type="CharacterBody2D"]
+rotation = 2.04902
+scale = Vector2(0.25, 0.35)
+collision_layer = 137
+collision_mask = 137
+script = ExtResource("2_y1eli")
+
+[node name="player_ship" type="Sprite2D" parent="."]
+scale = Vector2(0.120801, 0.120801)
+texture = ExtResource("1_d1mnv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, 1)
+build_mode = 1
+polygon = PackedVector2Array(-27, 23, 0, -23, 26, 23)
+
+[node name="Hitbox" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Hitbox"]
+position = Vector2(0, 1)
+build_mode = 1
+polygon = PackedVector2Array(-27, 23, 0, -23, 26, 23)
+
+[connection signal="body_entered" from="Hitbox" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

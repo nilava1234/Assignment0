@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfmafur6g3f1u"]
+
+[ext_resource type="Script" path="res://data/DeathScreen.cs" id="1_fre6g"]
+[ext_resource type="Texture2D" uid="uid://b31vfvij77as" path="res://sprites/DALL·E 2023-09-08 20.22.42 - Victory screen for a spaceship video game retro that fit on the screen.png" id="2_rr2wi"]
+
+[node name="WinScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fre6g")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 1147.0
+offset_bottom = 651.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(552, 320)
+scale = Vector2(0.716797, 0.716797)
+texture = ExtResource("2_rr2wi")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed" flags=18]

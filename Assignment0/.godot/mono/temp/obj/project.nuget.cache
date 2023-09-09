@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "XpQi7/Ky1UTUT1qxY+41WHbwQ+NkBDO9pr3Ibb6KRzvf7OJEWmgUvaOdoyHfeacVQ9FDyGqqzd6LYDBm2VAzWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nilav\\Documents\\Projects\\Godot\\project_0_cs354R-Aim_Trainer\\project_0_cs354R-Aim_Trainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nilav\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\nilav\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\nilav\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.21\\microsoft.netcore.app.runtime.win-x64.6.0.21.nupkg.sha512",
+    "C:\\Users\\nilav\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.21\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.21.nupkg.sha512",
+    "C:\\Users\\nilav\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.21\\microsoft.aspnetcore.app.runtime.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

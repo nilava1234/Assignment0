@@ -1,0 +1,88 @@
+[gd_scene load_steps=8 format=3 uid="uid://bm8jkx45fnqut"]
+
+[ext_resource type="PackedScene" uid="uid://dwgxkfhqwoqyy" path="res://data/pointer.tscn" id="1_2tmfg"]
+[ext_resource type="Texture2D" uid="uid://1au4nux3fsde" path="res://sprites/DALL·E 2023-09-07 14.09.30 - pixalated space background for a game.png" id="1_kj348"]
+[ext_resource type="Texture2D" uid="uid://c4xpq8uqsesig" path="res://sprites/wall.png" id="4_nwux3"]
+[ext_resource type="PackedScene" uid="uid://cmtxx748r1t3c" path="res://data/target.tscn" id="5_50or5"]
+[ext_resource type="PackedScene" uid="uid://88ubh3mcfygm" path="res://data/camera_2d.tscn" id="6_4x1kv"]
+[ext_resource type="PackedScene" uid="uid://ctdj23mwcdila" path="res://data/laser.tscn" id="6_pq4t8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1a5u5"]
+size = Vector2(24, 647)
+
+[node name="Background" type="Node2D"]
+
+[node name="bg_art" type="Sprite2D" parent="."]
+position = Vector2(576.625, 340.625)
+scale = Vector2(1.24487, 0.762451)
+texture = ExtResource("1_kj348")
+
+[node name="L-Walls" type="Sprite2D" parent="."]
+position = Vector2(-0.999998, 332.5)
+scale = Vector2(0.046169, 1.82515)
+texture = ExtResource("4_nwux3")
+metadata/_edit_group_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="L-Walls"]
+collision_layer = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="L-Walls/StaticBody2D"]
+position = Vector2(-4.19617e-05, -0.0984039)
+scale = Vector2(21.6596, 0.787012)
+shape = SubResource("RectangleShape2D_1a5u5")
+
+[node name="R-wall" type="Sprite2D" parent="."]
+position = Vector2(1152, 345)
+scale = Vector2(0.046169, 1.8664)
+texture = ExtResource("4_nwux3")
+metadata/_edit_group_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="R-wall"]
+collision_layer = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="R-wall/StaticBody2D"]
+position = Vector2(-4.19617e-05, -0.0984039)
+scale = Vector2(21.6596, 0.787012)
+shape = SubResource("RectangleShape2D_1a5u5")
+
+[node name="Ceil" type="Sprite2D" parent="."]
+position = Vector2(591.5, 4.00037)
+scale = Vector2(2.99279, -0.0606827)
+texture = ExtResource("4_nwux3")
+metadata/_edit_group_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ceil"]
+collision_layer = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ceil/StaticBody2D"]
+position = Vector2(-4.19617e-05, -0.0984039)
+scale = Vector2(21.6596, 0.787012)
+shape = SubResource("RectangleShape2D_1a5u5")
+
+[node name="Floor" type="Sprite2D" parent="Ceil"]
+position = Vector2(-12.0526, -10546.7)
+scale = Vector2(0.981364, -0.689943)
+texture = ExtResource("4_nwux3")
+metadata/_edit_group_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ceil/Floor"]
+collision_layer = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ceil/Floor/StaticBody2D"]
+position = Vector2(-4.19617e-05, -0.0984039)
+scale = Vector2(21.6596, 0.787012)
+shape = SubResource("RectangleShape2D_1a5u5")
+
+[node name="player" parent="." instance=ExtResource("1_2tmfg")]
+position = Vector2(436, 349)
+
+[node name="Asteroids" parent="." instance=ExtResource("5_50or5")]
+position = Vector2(164, 221)
+scale = Vector2(0.280001, 0.280001)
+playerPath = NodePath("../player")
+
+[node name="Laser" parent="." instance=ExtResource("6_pq4t8")]
+position = Vector2(-48, 127)
+
+[node name="Camera2D" parent="." instance=ExtResource("6_4x1kv")]
+position = Vector2(48, 62)

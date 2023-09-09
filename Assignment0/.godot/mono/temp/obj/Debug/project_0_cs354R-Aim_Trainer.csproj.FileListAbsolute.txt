@@ -1,0 +1,17 @@
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.csproj.AssemblyReference.cache
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.AssemblyInfoInputs.cache
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.AssemblyInfo.cs
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.csproj.CoreCompileInputs.cache
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\bin\Debug\project_0_cs354R-Aim_Trainer.deps.json
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\bin\Debug\project_0_cs354R-Aim_Trainer.runtimeconfig.json
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\bin\Debug\project_0_cs354R-Aim_Trainer.dll
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\bin\Debug\project_0_cs354R-Aim_Trainer.pdb
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.csproj.CopyComplete
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.dll
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\refint\project_0_cs354R-Aim_Trainer.dll
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.pdb
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\project_0_cs354R-Aim_Trainer.genruntimeconfig.cache
+C:\Users\nilav\Documents\Projects\Godot\project_0_cs354R-Aim_Trainer\.godot\mono\temp\obj\Debug\ref\project_0_cs354R-Aim_Trainer.dll

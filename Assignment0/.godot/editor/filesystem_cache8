@@ -1,0 +1,32 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1694223532
+export_presets.cfg::TextFile::-1::1694223459::0::1::::<><>::
+::res://data/::1694223532
+background.tscn::PackedScene::3297376838314065331::1694222720::0::1::::<><>::uid://dwgxkfhqwoqyy::::res://data/pointer.tscn<>uid://1au4nux3fsde::::res://sprites/DALL·E 2023-09-07 14.09.30 - pixalated space background for a game.png<>uid://c4xpq8uqsesig::::res://sprites/wall.png<>uid://cmtxx748r1t3c::::res://data/target.tscn<>uid://88ubh3mcfygm::::res://data/camera_2d.tscn<>uid://ctdj23mwcdila::::res://data/laser.tscn
+board.cs::CSharpScript::-1::1694222428::0::1::::<><>::
+Camera2D.cs::CSharpScript::-1::1694222050::0::1::::<><>::
+camera_2d.tscn::PackedScene::2385572843054372352::1694222720::0::1::::<><>::res://data/Camera2D.cs
+control.cs::CSharpScript::-1::1694221356::0::1::::<><>::
+DeathScreen.cs::CSharpScript::-1::1694221384::0::1::::<><>::
+death_screen.tscn::PackedScene::8140791747668082828::1694222720::0::1::::<><>::res://data/DeathScreen.cs<>uid://dch87jxjk6mhc::::res://sprites/DALL·E 2023-09-08 20.01.28 - Game over screen for a spaceship video game retro that fit on the screen.png
+laser.cs::CSharpScript::-1::1694219237::0::1::::<><>::
+laser.tscn::PackedScene::6113218689335163662::1694222720::0::1::::<><>::res://data/laser.cs<>uid://d8wcmni4fr34::::res://sprites/laser.png
+pointer.cs::CSharpScript::-1::1694216685::0::1::::<><>::
+pointer.tscn::PackedScene::8717217500600369304::1694222720::0::1::::<><>::uid://cuwii168ibopp::::res://sprites/player_ship.png<>res://data/pointer.cs
+Scoreboard.cs::CSharpScript::-1::1694222443::0::1::::<><>::
+Start_Menu.tscn::PackedScene::2078637203774028056::1694222720::0::1::::<><>::res://data/control.cs
+target.cs::CSharpScript::-1::1694222712::0::1::::<><>::
+target.tscn::PackedScene::5655769959532831942::1694222720::0::1::::<><>::uid://mgpvrr8oqedo::::res://sprites/icon.svg<>res://data/target.cs
+win_screen.tscn::PackedScene::5148568125740907132::1694222720::0::1::::<><>::res://data/DeathScreen.cs<>uid://b31vfvij77as::::res://sprites/DALL·E 2023-09-08 20.22.42 - Victory screen for a spaceship video game retro that fit on the screen.png
+::res://data_project_0_cs354R-Aim_Trainer_x86_64/::1694223458
+project_0_cs354R-Aim_Trainer.deps.json::JSON::-1::1694223444::0::1::::<><>::
+project_0_cs354R-Aim_Trainer.runtimeconfig.json::JSON::-1::1694223444::0::1::::<><>::
+::res://sprites/::1694223532
+DALL·E 2023-09-07 14.09.30 - pixalated space background for a game.png::CompressedTexture2D::1826176777249703034::1694113782::1694113789::1::::<><>::
+DALL·E 2023-09-08 20.01.28 - Game over screen for a spaceship video game retro that fit on the screen.png::CompressedTexture2D::7316151697464203928::1694221297::1694221306::1::::<><>::
+DALL·E 2023-09-08 20.22.42 - Victory screen for a spaceship video game retro that fit on the screen.png::CompressedTexture2D::129607859670085602::1694222571::1694222577::1::::<><>::
+icon.svg::CompressedTexture2D::855601567421585860::1694112461::1694112531::1::::<><>::
+laser.png::CompressedTexture2D::280030992991855185::1694215346::1694215350::1::::<><>::
+main.tscn::PackedScene::551705661490059741::1694223390::0::1::::<><>::uid://4u53622m5o13::::res://data/Start_Menu.tscn
+player_ship.png::CompressedTexture2D::6222535988035692077::1694114744::1694114747::1::::<><>::
+wall.png::CompressedTexture2D::6856739613744333598::1694207610::1694207619::1::::<><>::

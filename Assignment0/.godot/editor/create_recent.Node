@@ -1,0 +1,17 @@
+Label
+Sprite2D
+Node2D
+CanvasLayer
+Node
+Button
+VBoxContainer
+Control
+Area2D
+CollisionShape2D
+ShapeCast2D
+RigidBody2D
+StaticBody2D
+CharacterBody2D
+Camera2D
+CollisionPolygon2D
+TileMap
